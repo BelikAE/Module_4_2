@@ -7,7 +7,6 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="300">
     <Grid>
-
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
             <RowDefinition/>
@@ -26,7 +25,7 @@
                    TextAlignment="Right"
                    VerticalAlignment="Bottom"/>
         </Border>
-        <UniformGrid Rows="6" Columns ="4" Grid.Row="1">
+        <UniformGrid Rows="6" Columns ="4" Grid.Row="1" Margin="1 0 1 1">
             <Button Content="%" FontSize="16" />
             <Button Content="CE" FontSize="16"/>
             <Button Content="C" FontSize="16"/>
