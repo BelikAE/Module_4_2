@@ -5,8 +5,53 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Module_4_2"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="300">
     <Grid>
-        
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Border 
+                Grid.Row="0"
+                Background ="#FFE2F3EC"
+                BorderBrush ="Gray"
+                BorderThickness="3 3 1 1"
+                Margin="2 0 2 2"
+                Height="80">
+        <TextBlock x:Name ="textBlock"
+                   Text="123,14"
+                   FontFamily="Arial"
+                   FontSize="30"
+                   TextAlignment="Right"
+                   VerticalAlignment="Bottom"/>
+        </Border>
+        <UniformGrid Rows="6" Columns ="4" Grid.Row="1">
+            <Button Content="%" FontSize="16" />
+            <Button Content="CE" FontSize="16"/>
+            <Button Content="C" FontSize="16"/>
+            <Button Content="⇐" FontSize="16"/>
+            <Button Content="1/x" FontSize="16"/>
+            <Button Content="x²" FontSize="16"/>
+            <Button Content="√x" FontSize="16"/>
+            <Button Content="÷" FontSize="16"/>
+            <Button Content="7" FontSize="16" Background="White"/>
+            <Button Content="8" FontSize="16" Background="White"/>
+            <Button Content="9" FontSize="16" Background="White"/>
+            <Button Content="x" FontSize="16"/>
+            <Button Content="4" FontSize="16" Background="White"/>
+            <Button Content="5" FontSize="16" Background="White"/>
+            <Button Content="6" FontSize="16" Background="White"/>
+            <Button Content="-" FontSize="16"/>
+            <Button Content="1" FontSize="16" Background="White"/>
+            <Button Content="2" FontSize="16" Background="White"/>
+            <Button Content="3" FontSize="16" Background="White"/>
+            <Button Content="+" FontSize="16"/>
+            <Button Content="+/-" FontSize="16" Background="White"/>
+            <Button Content="0" FontSize="16" Background="White"/>
+            <Button Content="," FontSize="16" Background="White"/>
+            <Button Content="=" FontSize="16"/>
+
+        </UniformGrid>
     </Grid>
 </Window>

@@ -23,6 +23,8 @@ namespace Module_4_2
         public MainWindow()
         {
             InitializeComponent();
+            textBlock.Text = 23841.78.ToString("N2");
+
         }
     }
 }
