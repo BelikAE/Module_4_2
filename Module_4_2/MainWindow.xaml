@@ -23,7 +23,8 @@
                    FontFamily="Arial"
                    FontSize="30"
                    TextAlignment="Right"
-                   VerticalAlignment="Bottom"/>
+                   VerticalAlignment="Bottom"
+                   Margin="3"/>
         </Border>
         <UniformGrid Rows="6" Columns ="4" Grid.Row="1" Margin="1 0 1 1">
             <Button Content="%" FontSize="16" />
